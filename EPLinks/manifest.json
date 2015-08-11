@@ -3,7 +3,7 @@
   "description" : "This allows quickly linking to core E+ sites",
   "version": "1",
   "browser_action": {
-    "default_icon": "icon.png",
+    "default_icon": "ep.png",
     "default_popup": "popup.html"
   },
   "permissions":[],
