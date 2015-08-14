@@ -1,9 +1,11 @@
-function openLink() {
-    var href = this.href;
-    chrome.tabs.query({active: true, currentWindow: true}, function(tabs) {
-        var tab = tabs[0];
-        chrome.tabs.update(tab.id, {url: href});
-    });
+function openLink(e) {
+    if(e.button === 0){
+        var href = this.href;
+        chrome.tabs.query({active: true, currentWindow: true}, function(tabs) {
+            var tab = tabs[0];
+            chrome.tabs.update(tab.id, {url: href});
+        });
+    }
 }
 
 window.onload = function () {
