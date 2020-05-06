@@ -1,7 +1,7 @@
 {
   "name": "EnergyPlus Links",
   "description" : "This allows quickly linking to core E+ sites",
-  "version": "1",
+  "version": "2",
   "browser_action": {
     "default_icon": "ep.png",
     "default_popup": "popup.html"
